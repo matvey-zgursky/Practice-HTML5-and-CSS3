@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500&display=swap');
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.attribution {
+    position: absolute;
+    font-size: 11px;
+    width: 99%;
+    bottom: 1rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+    
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.card {
+    position: absolute;
+    background: hsl(0, 0%, 100%);
+    width: 650px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.card img {
+    float: left;
+    width: 50%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
+.card button {
+    position: absolute;
+    background: hsl(158, 36%, 37%);
+    width: 40%;
+    height: 10%;
+    bottom: 2em;
+    left: 55%;
+    border-radius: 10px;
+}
+
+.card button span {
+    position: absolute;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Montserrat', serif;
+    top: .9em;
+    left: 6.8em;
+    font-size: 15px;
+}
+
+.card button svg {
+    position: absolute;
+    top: 1em;
+    left: 5.5em;
+}
+
+.card button:active {
+    background-color: hsl(212, 21%, 14%);
+}
+
+.card form {
+    position: absolute;
+    top: 2%;
+    left: 55%;
+    right: 5%;
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+}
+
+.card h1 {
+    margin: 15px 0 15px 0;
+}
+
+.card form h4 {
+    font-family: 'Montserrat', serif;
+    opacity: .5;
+    font-size: 15px;
+}
+
+.card form span {
+    font-family: 'Montserrat', serif;
+    opacity: .5;
+    font-size: 15px;
+}
+
+.sale-cash {
+    color: hsl(158, 36%, 37%);
+    font-size: 2em;
+    margin: .5em .5em .5em 0;
+    float: left;
+}
+
+.cash {
+    color: #000;
+    margin: 1.5em 0;
+    opacity: .5;
+    text-decoration: line-through
+}
